@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>  
 <head>    
-<title>Video PLayer</title>  
+<title>Video Player</title>  
 </head>  
 <body style="background-color: rgba(82, 179, 217, 0.5);">
 
 <div style="text-align:center">
 <video width="100vw" height="80vh" loop controls id="myVideo">
-<!--source src="path-to-mp4-file/your-file.mp4" type="video/mp4"> -->
-<!-- source src="path-to-ogg-file/your-file.ogg" type="video/ogg">-->
-<!-- source src="path-to-webm-file/your-file.webm" type="video/webm">-->
+<!--source src="file:///path-to-mp4-file/your-file.mp4" type="video/mp4"> -->
+<!-- source src="file:///path-to-ogg-file/your-file.ogg" type="video/ogg">-->
+<!-- source src="file:///path-to-webm-file/your-file.webm" type="video/webm">-->
 
 Ooops!!! Your Browser Does not seem to support html5 video
 </video>
@@ -19,7 +19,7 @@ Ooops!!! Your Browser Does not seem to support html5 video
 <p>
 HTML 5 &lt;video&gt; tag supports video playback in the browser. The most cross-platform format is the MP4 video format, although other formats such as ogg, webm and avi are supported by numerous browsers.
 <br />
-To play either mp, ogg or webm video in this simple web page, then simply comment out the respective section, add path in the "src" attribute and Enjoy!!!!
+To play either mp, ogg or webm video in this simple web page, then simply comment out the respective section, add path in the "src" (do not remove the "file:///" part to conform to the URI path scheme standard) attribute and Enjoy!!!!
 </p>
 </div>
 <style>
